@@ -11,3 +11,15 @@
 #Analyze sample data. Applying the chi-square test for independence to sample data, 
 #we compute the degrees of freedom, the expected frequency counts, and the chi-square test statistic. 
 #Based on the chi-square statistic and the degrees of freedom, we determine the P-value.
+
+qchisq(.95, df=7)
+
+
+
+
+
+
+# q3 ----------------------------------------------------------------------
+
+#http://www.statisticshowto.com/what-is-a-chi-square-statistic/
+  

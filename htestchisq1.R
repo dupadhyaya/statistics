@@ -1,4 +1,6 @@
 # Chi Square Test 
+# About Chi Square Test
+# https://stat.ethz.ch/R-manual/R-devel/library/stats/html/chisq.test.html
 
 # Goodness of Fit : Discrepancy between observed & Expected ####
 # Q1 @ 7.65 ---------------------------------------------------------------

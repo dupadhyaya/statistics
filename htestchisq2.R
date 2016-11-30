@@ -11,8 +11,16 @@
 #Analyze sample data. Applying the chi-square test for independence to sample data, 
 #we compute the degrees of freedom, the expected frequency counts, and the chi-square test statistic. 
 #Based on the chi-square statistic and the degrees of freedom, we determine the P-value.
-
+# Find Chisq (table values from R command alpha=.05 ie CL = .95 & df = 7)
 qchisq(.95, df=7)
+#dchisq(x, df, ncp = 0, log = FALSE)
+#pchisq(q, df, ncp = 0, lower.tail = TRUE, log.p = FALSE)
+#qchisq(p, df, ncp = 0, lower.tail = TRUE, log.p = FALSE)
+#rchisq(n, df, ncp = 0)
+?chisq.test
+?Chisquare
+chisq.test(x, y = NULL, correct = TRUE, p = rep(1/length(x), length(x)), 
+    rescale.p = FALSE, simulate.p.value = FALSE, B = 2000)
 
 
 # Chi Squared
@@ -44,7 +52,6 @@ chisq.test(ctbl)
 # Q2 ----------------------------------------------------------------------
 
 #http://courses.statistics.com/software/R/Rchisq.htm
-
 
 # q3 ----------------------------------------------------------------------
 

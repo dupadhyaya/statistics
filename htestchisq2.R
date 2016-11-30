@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Chi squared Tests 2
 # http://stattrek.com/chi-square-test/independence.aspx?Tutorial=AP
 
@@ -16,7 +15,6 @@
 qchisq(.95, df=7)
 
 
-=======
 # Chi Squared
 
 # Q1 ----------------------------------------------------------------------
@@ -46,17 +44,12 @@ chisq.test(ctbl)
 # Q2 ----------------------------------------------------------------------
 
 #http://courses.statistics.com/software/R/Rchisq.htm
->>>>>>> 3a0da16ec27821c3858e2599fd08e1a63e087b9f
 
 
-
-
-<<<<<<< HEAD
 # q3 ----------------------------------------------------------------------
 
 #http://www.statisticshowto.com/what-is-a-chi-square-statistic/
   
-=======
 # Q3 ----------------------------------------------------------------------
 
 #https://ww2.coastal.edu/kingw/statistics/R-tutorials/independ.html
@@ -86,6 +79,3 @@ chisq.test(data.matrix)$statistic         # keeping the output brief
 #X-squared  25.08597
 
 dimnames(data.matrix) = list(Age=c("lt.45","45.to.59","ge.60"), Freq=c("Monthly","Occasionally","Never"))
-
-
->>>>>>> 3a0da16ec27821c3858e2599fd08e1a63e087b9f

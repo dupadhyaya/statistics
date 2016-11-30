@@ -2,12 +2,13 @@
 
 # Q : 1 sample ------------------------------------------------------------
 #A random sample of 900 members has a mean 3.4 cm. 
-#Can it be reasonably regarded as sample from a large population of mean 3.25 cm and SD 2.61 cms
+#Can it be reasonably regarded as sample from a
+#large population of mean 3.25 cm and SD 2.61 cms
 #Ho : μ = 3.25  ; Ha : μ ≠ 3.25
 library(TeachingDemos) 
 qnorm(1-.05/2)
-z.test(3.4,mu=3.25,sd=2.61,n=900,conf.level = .95,alternative="two.sided")
-
+z.test(3.4,mu=3.25,sd=2.61,n=900,conf.level = .975,alternative="two.sided")
+(3.4 - 3.25)/(2.61/sqrt(900))
 #One Sample z-test
 #data:  3.4
 #z = 1.7241, n = 900.000, Std. Dev. = 2.610, Std. Dev. of the sample
@@ -22,7 +23,8 @@ z.test(3.4,mu=3.25,sd=2.61,n=900,conf.level = .95,alternative="two.sided")
 
 
 # Q2 ----------------------------------------------------------------------
-#Manufacturer claims that the average mileage of scooters of his company is 40 km/litre. A random sample of 38 scooters of the company showed an average mileage of 42 km/litre. Test the claim of the manufacturer on the assumption that the mileage of scooter is normally distributed with SD of 2 km/litre
+#Manufacturer claims that the average mileage of scooters of his company is 40 km/litre.
+#A random sample of 38 scooters of the company showed an average mileage of 42 km/litre. Test the claim of the manufacturer on the assumption that the mileage of scooter is normally distributed with SD of 2 km/litre
 #Ho : μ = 40  Ha : μ ≠ 40
 qnorm(1-.05/2)#[1] 1.959964
 

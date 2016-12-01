@@ -86,3 +86,28 @@ chisq.test(data.matrix)$statistic         # keeping the output brief
 #X-squared  25.08597
 
 dimnames(data.matrix) = list(Age=c("lt.45","45.to.59","ge.60"), Freq=c("Monthly","Occasionally","Never"))
+
+
+
+# Q5 ----------------------------------------------------------------------
+
+#http://stattrek.com/chi-square-test/independence.aspx
+#Ho: Gender and voting preferences are independent. 
+#Ha: Gender and voting preferences are not independent.
+male=c(200,150,50)
+female=c(250,300,50)
+M = as.table(rbind(male,female))
+dimnames(M) <- list(gender = c("M", "F"),
+                    party = c("BJP","Congress", "Independent"))
+
+Xcalc = chisq.test(M) # prints test summary
+Xcalc
+Xtable = qchisq(.95, df=(2-1)*(3-1)) ; Xtable
+Xcalc$observed   # observed counts (same as M)
+Xcalc$expected   # expected counts under the null
+Xcalc$residuals  # Pearson residuals
+Xcalc$stdres     # standardized residuals
+# X-squared = 16.204 > Xtable= 5.991465, then Reject Ho
+
+
+#http://web.pdx.edu/~newsomj/da1/ho_chisq.pdf

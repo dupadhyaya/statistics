@@ -1,3 +1,28 @@
+# Chi squared Tests 2
+# http://stattrek.com/chi-square-test/independence.aspx?Tutorial=AP
+
+# Q1 ----------------------------------------------------------------------
+
+#Ho: Gender and voting preferences are independent. 
+#Ha: Gender and voting preferences are not independent.
+
+#Formulate an analysis plan. For this analysis, the significance level is 0.05.
+
+#Analyze sample data. Applying the chi-square test for independence to sample data, 
+#we compute the degrees of freedom, the expected frequency counts, and the chi-square test statistic. 
+#Based on the chi-square statistic and the degrees of freedom, we determine the P-value.
+# Find Chisq (table values from R command alpha=.05 ie CL = .95 & df = 7)
+qchisq(.95, df=7)
+#dchisq(x, df, ncp = 0, log = FALSE)
+#pchisq(q, df, ncp = 0, lower.tail = TRUE, log.p = FALSE)
+#qchisq(p, df, ncp = 0, lower.tail = TRUE, log.p = FALSE)
+#rchisq(n, df, ncp = 0)
+?chisq.test
+?Chisquare
+chisq.test(x, y = NULL, correct = TRUE, p = rep(1/length(x), length(x)), 
+    rescale.p = FALSE, simulate.p.value = FALSE, B = 2000)
+
+
 # Chi Squared
 
 # Q1 ----------------------------------------------------------------------
@@ -28,9 +53,10 @@ chisq.test(ctbl)
 
 #http://courses.statistics.com/software/R/Rchisq.htm
 
+# q3 ----------------------------------------------------------------------
 
-
-
+#http://www.statisticshowto.com/what-is-a-chi-square-statistic/
+  
 # Q3 ----------------------------------------------------------------------
 
 #https://ww2.coastal.edu/kingw/statistics/R-tutorials/independ.html
@@ -62,3 +88,26 @@ chisq.test(data.matrix)$statistic         # keeping the output brief
 dimnames(data.matrix) = list(Age=c("lt.45","45.to.59","ge.60"), Freq=c("Monthly","Occasionally","Never"))
 
 
+
+# Q5 ----------------------------------------------------------------------
+
+#http://stattrek.com/chi-square-test/independence.aspx
+#Ho: Gender and voting preferences are independent. 
+#Ha: Gender and voting preferences are not independent.
+male=c(200,150,50)
+female=c(250,300,50)
+M = as.table(rbind(male,female))
+dimnames(M) <- list(gender = c("M", "F"),
+                    party = c("BJP","Congress", "Independent"))
+
+Xcalc = chisq.test(M) # prints test summary
+Xcalc
+Xtable = qchisq(.95, df=(2-1)*(3-1)) ; Xtable
+Xcalc$observed   # observed counts (same as M)
+Xcalc$expected   # expected counts under the null
+Xcalc$residuals  # Pearson residuals
+Xcalc$stdres     # standardized residuals
+# X-squared = 16.204 > Xtable= 5.991465, then Reject Ho
+
+
+#http://web.pdx.edu/~newsomj/da1/ho_chisq.pdf

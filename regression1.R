@@ -7,9 +7,9 @@ library(vars)
 library(nortest)
 library(MASS)
 
-setwd("C:\\Users\\Subhojit\\Desktop\\IVY R\\Linear Regression\\sunny")
+#setwd("C:\\Users\\Subhojit\\Desktop\\IVY R\\Linear Regression\\sunny")
 
-data<- read.csv("Data.csv")
+data<- read.csv("dataivy1.csv")
 str(data)
 summary(data)
 

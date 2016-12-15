@@ -84,3 +84,4 @@ acf(ts(ARIMAfit$residuals),main='ACF Residual') # Not Working
 pacf(ts(ARIMAfit$residuals),main='PACF Residual')
 
 #no spikes outside the insignificant zone for both ACF and PACF plots we can conclude that residuals are random with no information or juice in them. Hence our ARIMA model is working fine.
+

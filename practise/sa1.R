@@ -7,7 +7,6 @@
 # Test the hypothesis whether the students smoking habit is
 #indepdent of their exercises level at .05 level.
 
-
 x = c(1,2,3,4,5,6,7)
 y = c(10,20,30,40,55,65,75)
 tbl = table(x,y)

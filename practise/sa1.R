@@ -26,7 +26,7 @@ predict(lm1, data.frame(x=9)) # predict
 
 lm1.stdres = rstandard(lm1)
 qqnorm(lm1.stdres)
-
+?EMA
 
 # t tests
 s1 = c(6, 2, 2, 2, 3, 2, 7, 5, 7, 8)

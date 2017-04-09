@@ -46,13 +46,18 @@ z.test(42,mu=40,sd=2,n=38,conf.level = .95,alternative="two.sided")
 
 
 
-#A stenographer claims that she can type at the rate of 120 words per min. Can we reject her claim on the basis of 100 trials in which she demonstrates a mean of 116 words with a SD of 15 words ? Use 5% level of significance
+#A stenographer claims that she can type at the rate of 120 words per min. 
+#Can we reject her claim on the basis of 100 trials in which she demonstrates a mean of 116 words with a SD of 15 words ? Use 5% level of significance
 #Ho : μ = 120   Ha : μ ≠ 120
 qnorm(1-.05/2)#[1] 1.959964
 z.test(116,mu=120,sd=15,n=100,conf.level = .95,alternative="two.sided")
+?z.test
 
 #[ |Z* =-2.667 |   >   Zα/2 = 1.9599 : Reject Ho ]
-
+# use x as vector of values instead of one mean value
+x = c(117,120,110,123,125, 114, 118,123, 117, 125)
+length(x); mean(x) ; sd(x)
+z.test(x,mu=120,sd=sd(x),n=length(x),conf.level = .95,alternative="two.sided")
 
 # Q4 ----------------------------------------------------------------------
 

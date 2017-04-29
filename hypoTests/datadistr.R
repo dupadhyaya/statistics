@@ -19,12 +19,12 @@ hist(x, breaks = "Sturges",
      xlim = range(breaks), ylim = NULL,
      xlab = xname, ylab,
      axes = TRUE, plot = TRUE, labels = FALSE,
-     nclass = NULL, warn.unused = TRUE, ...)
+     nclass = NULL, warn.unused = TRUE)
 
 hist(data2, label=T, ylim=c(0,8), breaks=3)
 hist(data2, label=T, ylim=c(0,8), breaks=7)
 hist(data2, label=T, ylim=c(0,8), breaks=2:9) # same
-hist(data2, label=T, ylim=c(0,8), breaks=c(2,3,4,5,6,7,8)) # same
+hist(data2, label=T, ylim=c(0,8), breaks=c(2,3,4,5,6,7,8,9)) # same
 hist(data2, label=T, ylim=c(0,8), breaks=c(2,4,5,6,9)) # different
 #unequal width range; convert to density
 hist(data2, label=T,breaks=c(2,4,5,6,9)) # different

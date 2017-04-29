@@ -6,9 +6,18 @@
 #large population of mean 3.25 cm and SD 2.61 cms
 #Ho : μ = 3.25  ; Ha : μ ≠ 3.25
 library(TeachingDemos) 
-qnorm(1-.05/2)
-z.test(3.4,mu=3.25,sd=2.61,n=900,conf.level = .975,alternative="two.sided")
-(3.4 - 3.25)/(2.61/sqrt(900))
+za= qnorm(1-.05/2)
+?rnorm
+x=rnorm(1000,mean=3.25,sd=2.61)
+plot(density(x))
+z.test(3.4,mu=3.25,sd=2.61,n=900,conf.level = .975,
+       alternative="two.sided")
+
+zc = (3.4 - 3.25)/(2.61/sqrt(900))
+abline(v=c(za,-za))
+abline(v=zc, col='red')
+#zc (calc) lies betw -za & za. Do not reject Ho
+
 #One Sample z-test
 #data:  3.4
 #z = 1.7241, n = 900.000, Std. Dev. = 2.610, Std. Dev. of the sample

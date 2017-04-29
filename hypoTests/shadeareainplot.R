@@ -71,3 +71,14 @@ lines(x,One.Run)
 par(par.default)
 rm(list=ls())
 
+#-------------
+
+# Create data for the area to shade
+cord.x <- c(-3,seq(-3,-1,0.01),-1) 
+cord.y <- c(0,dnorm(seq(-3,-1,0.01)),0) 
+
+# Make a curve
+curve(dnorm(x,0,1), xlim=c(-3,3), main='Standard Normal') 
+
+# Add the shaded area.
+polygon(cord.x,cord.y,col='skyblue')

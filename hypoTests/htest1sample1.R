@@ -7,7 +7,6 @@
 #Ho : μ = 3.25  ; Ha : μ ≠ 3.25
 library(TeachingDemos) 
 za= qnorm(1-.05/2)
-?rnorm
 x=rnorm(1000,mean=3.25,sd=2.61)
 plot(density(x))
 z.test(3.4,mu=3.25,sd=2.61,n=900,conf.level = .975,
@@ -35,9 +34,28 @@ abline(v=zc, col='red')
 #Manufacturer claims that the average mileage of scooters of his company is 40 km/litre.
 #A random sample of 38 scooters of the company showed an average mileage of 42 km/litre. Test the claim of the manufacturer on the assumption that the mileage of scooter is normally distributed with SD of 2 km/litre
 #Ho : μ = 40  Ha : μ ≠ 40
-qnorm(1-.05/2)#[1] 1.959964
+qnorm(1-.05/2) #[1] 1.959964
+z.test(42,mu=40,sd=2,n=38,conf.level = .95,
+       alternative="two.sided")
+#Sample mean(42) is falling in between the 95% Confidence Interval calculated : [41.36, 42.63]
+#z = 6.1644, n = 38.00000, Std. Dev. = 2.00000, Std. Dev. of the sample mean = 0.32444, p-value = 7.074e-10
 
-z.test(42,mu=40,sd=2,n=38,conf.level = .95,alternative="two.sided")
+za2 = qnorm(1-.05/2, mean=40,sd=2,lower.tail=T)
+za1 = qnorm(.05/2, mean=40,sd=2,lower.tail=T)
+za1; za2
+x = rnorm(1000,mean=40,sd=2)
+plot(density(x))
+abline(v=c(40,42))
+
+mtext(side=1,at=40,text='Mean at 40',col='green')
+text(x=42,y=.1,labels='Sample Mean at 42', col='purple', 
+     srt=90, offset=0.5)
+?text
+abline(v=c(za1,za2), col='red')
+text(x=za1-.5,y=0.1,labels='Left Bound', srt=90)
+text(x=za2-.5,y=0.1,labels='Right Bound', srt=90)
+
+# Sample mean lies between left and right bound
 
 #One Sample z-test
 #data:  42
@@ -78,6 +96,7 @@ qnorm(1-.01) #[1] 2.326348
 z.test(x=1570,mu=1600,sd=150,n=400,conf.level = .95,alternative="greater")
 
 #[ abs |Z* =-4 |   >   Zα/2 = 2.33    : Reject Ho ]
+
 #Sample mean(1570) is not falling in between the 95% Confidence Interval calculated : [1557.664,   Inf ]
 # Ha Mean is higher than 1600
 

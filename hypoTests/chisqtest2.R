@@ -1,4 +1,5 @@
 # Chi Square Test------------
+
 #two categorical variables from a single population.
 #Used to determine whether there is a significant association between the two variables.
 
@@ -29,6 +30,7 @@
 # Link1 ------------
 #https://ww2.coastal.edu/kingw/statistics/R-tutorials/independ.html
 #http://stattrek.com/chi-square-test/independence.aspx?Tutorial=AP
+#http://www.r-tutor.com/elementary-statistics/goodness-fit/chi-squared-test-independence
 
 # Enter Data -----------
 row1 = c(91,90,51)                   # or col1 = c(91,150,109)

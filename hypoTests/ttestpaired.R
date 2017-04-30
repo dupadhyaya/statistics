@@ -37,6 +37,6 @@ mu=0
 t.test(before, after, paired=T, mu=0, alternative='two.sided')
 qt(1-0.05/2,df=n-1); qt(0.05/2,df=n-1)
 #tcalc lies between two extremes (not in rejection) : Accept Ho
-# p value > 0.05; 
+# p value > 0.05;  p-value (0.205) is greater than the signif level (0.05), we cannot reject Ho.
 # conf Interval : mean of diff lies betw conf intervals
 

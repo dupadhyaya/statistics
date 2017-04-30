@@ -1,5 +1,9 @@
 # Chi Squared Tests
 # Goodness of Fit
+#Links------
+#http://www.r-tutor.com/elementary-statistics/goodness-fit/multinomial-goodness-fit
+#http://math.hws.edu/javamath/ryan/ChiSquare.html
+
 
 #The test is applied when you have one categorical variable from a single population. It is used to determine 
 #whether sample data are consistent with a hypothesized distribution.

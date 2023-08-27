@@ -1,0 +1,33 @@
+\begin{table}[!ht]
+\caption{}
+\label{} 
+\begin{tabular}{ l D{.}{.}{2}D{.}{.}{2} } 
+\hline 
+  & \multicolumn{ 1 }{ c }{ OLS } & \multicolumn{ 1 }{ c }{ OLS_DUM } \\ \hline
+ %                & OLS              & OLS_DUM         \\ 
+(Intercept)      & 1524319070.05 ^* &                 \\ 
+                 & (621072623.86)   &                 \\ 
+x1               & 494988913.90     & 2475617827.10 ^*\\ 
+                 & (778861260.95)   & (1106675593.60) \\ 
+factor(country)A &                  & 880542403.99    \\ 
+                 &                  & (961807052.24)  \\ 
+factor(country)B &                  & -1057858363.16  \\ 
+                 &                  & (1051067684.19) \\ 
+factor(country)C &                  & -1722810754.55  \\ 
+                 &                  & (1631513751.40) \\ 
+factor(country)D &                  & 3162826897.32 ^*\\ 
+                 &                  & (909459149.66)  \\ 
+factor(country)E &                  & -602622000.33   \\ 
+                 &                  & (1064291684.41) \\ 
+factor(country)F &                  & 2010731793.24   \\ 
+                 &                  & (1122809097.35) \\ 
+factor(country)G &                  & -984717493.45   \\ 
+                 &                  & (1492723118.24)  \\
+ $N$              & 70               & 70              \\ 
+$R^2$            & 0.01             & 0.44            \\ 
+adj. $R^2$       & -0.01            & 0.37            \\ 
+Resid. sd        & 3028276248.26    & 2795552570.60    \\ \hline
+ \multicolumn{3}{l}{\footnotesize{Standard errors in parentheses}}\\
+\multicolumn{3}{l}{\footnotesize{$^*$ indicates significance at $p< 0.05 $}} 
+\end{tabular} 
+ \end{table}

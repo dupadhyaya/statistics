@@ -1,0 +1,88 @@
+Types of T - Test
+
+There are three main types of t-test:
+
+An Independent Samples t-test compares the means for two groups. It can be <, = , >
+
+
+A Paired sample t-test compares means from the same group at different times (say, one year apart).
+
+
+A One sample t-test tests the mean of a single group against a known mean
+
+#---------------------------
+One of the most common tests in statistics is the t-test, used to
+determine whether the means of two groups are equal to each other. 
+
+The assumption for the test is that both groups are sampled from normal distributions with equal variances. 
+
+The null hypothesis is that the two means are equal, and 
+the alternative is that they are not. 
+
+It is known that under the null hypothesis, we can calculate a t-statistic that will follow a t-distribution with n1 + n2 - 2 degrees of freedom. 
+
+There is also a widely used modification of the t-test, known as Welch's t-test that adjusts the number of degrees of freedom when the variances are thought not to be equal to each other.
+
+------------
+Links
+https://statistics.berkeley.edu/computing/r-t-tests
+
+------------
+# independent 2-group t-test
+t.test(y~x) # where y is numeric and x is a binary factor
+
+# independent 2-group t-test
+t.test(y1,y2) # where y1 and y2 are numeric
+
+# paired t-test
+t.test(y1,y2,paired=TRUE) # where y1 & y2 are numeric
+
+# one sample t-test
+t.test(y,mu=3) # Ho: mu=3
+
+You can use the var.equal = TRUE option to specify equal variances and a pooled variance estimate.
+
+You can use the alternative="less" or alternative="greater" option to specify a one tailed test.
+
+t.test(x, y = NULL,
+       alternative = c("two.sided", "less", "greater"),
+       mu = 0, paired = FALSE, var.equal = FALSE,
+       conf.level = 0.95, ...)
+
+#--------
+The independent-samples test can take one of three forms, depending on the structure of your data and the equality of their variances. 
+The general form of the test is t.test(y1, y2, paired=FALSE). 
+By default, R assumes that the variances of y1 and y2 are unequal, thus defaulting to Welch’s test. 
+To toggle this, we use the flag var.equal=TRUE.
+
+#-----
+Independent word : paired=FALSE
+Sample taken again from same populatoin : var.equal = TRUE
+If taken from different population : var.equal=FALSE
+
+#
+In statistics, we can define the corresponding null hypothesis (H0) as follow:
+
+H0:m=0
+H0:m≤0
+H0:m≥0
+
+The corresponding alternative hypotheses (Ha) are as follow:
+
+Ha:m≠0 (different)
+Ha:m>0 (greater)
+Ha:m<0 (less)
+
+#------
+Student's t-test assumes that the two populations have normal distributions and with equal variances. Welch's t-test is designed for unequal variances, but the assumption of normality is maintained
+
+
+#------
+Two unpaired t tests 
+
+When you choose to compare the means of two nonpaired groups with a t test, you have two choices:
+
+Use the standard unpaired t test. It assumes that both groups of data are sampled from Gaussian populations with the same standard deviation.
+
+Use the unequal variance t test, also called the Welch t test. It assues that both groups of data are sampled from Gaussian populations, but does not assume those two populations have the same standard deviation.
+https://www.graphpad.com/support/faqid/1568/

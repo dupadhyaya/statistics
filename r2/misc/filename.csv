@@ -1,0 +1,101 @@
+"","YEAR","Airline.code","ORIGIN","ORIGIN_CITY_NAME","DEST","DEST_CITY_NAME","DEP_TIME","DEP_DELAY","ARR_TIME","ARR_DELAY","CANCELLED","AIR_TIME","DISTANCE","year","month","carrier_name","airport","airport_name","arr_delay","carrier_delay","weather_delay","nas_delay","security_delay","late_aircraft_delay"
+"1",2018,"AA","LAX","Los Angeles, CA","HNL","Honolulu, HI",2001,-10,2357,-32,"0",334,2556,2018,1,"American Airlines Inc.","ABQ","Albuquerque, NM: Albuquerque International Sunport",1033,389,71,272,0,301
+"2",2018,"AA","LAX","Los Angeles, CA","HNL","Honolulu, HI",2001,-10,2357,-32,"0",334,2556,2018,1,"American Airlines Inc.","ALB","Albany, NY: Albany International",281,93,1,97,0,91
+"3",2018,"AA","LAX","Los Angeles, CA","HNL","Honolulu, HI",2001,-10,2357,-32,"0",334,2556,2018,1,"American Airlines Inc.","AMA","Amarillo, TX: Rick Husband Amarillo International",0,0,1,0,0,0
+"4",2018,"AA","LAX","Los Angeles, CA","HNL","Honolulu, HI",2001,-10,2357,-32,"0",334,2556,2018,1,"American Airlines Inc.","ATL","Atlanta, GA: Hartsfield-Jackson Atlanta International",8794,3851,396,1607,36,2904
+"5",2018,"AA","LAX","Los Angeles, CA","HNL","Honolulu, HI",2001,-10,2357,-32,"0",334,2556,2018,1,"American Airlines Inc.","AUS","Austin, TX: Austin - Bergstrom International",5748,3075,224,1033,0,1416
+"6",2018,"AA","LAX","Los Angeles, CA","HNL","Honolulu, HI",2001,-10,2357,-32,"0",334,2556,2018,1,"American Airlines Inc.","BDL","Hartford, CT: Bradley International",3137,1091,389,846,0,811
+"7",2018,"AA","LAX","Los Angeles, CA","HNL","Honolulu, HI",2001,-10,2357,-32,"0",334,2556,2018,1,"American Airlines Inc.","BNA","Nashville, TN: Nashville International",3454,1326,107,726,0,1295
+"8",2018,"AA","LAX","Los Angeles, CA","HNL","Honolulu, HI",2001,-10,2357,-32,"0",334,2556,2018,1,"American Airlines Inc.","BOI","Boise, ID: Boise Air Terminal",217,137,1,18,0,62
+"9",2018,"AA","LAX","Los Angeles, CA","HNL","Honolulu, HI",2001,-10,2357,-32,"0",334,2556,2018,1,"American Airlines Inc.","BOS","Boston, MA: Logan International",23893,6462,1072,6572,27,9760
+"10",2018,"AA","LAX","Los Angeles, CA","HNL","Honolulu, HI",2001,-10,2357,-32,"0",334,2556,2018,1,"American Airlines Inc.","BUF","Buffalo, NY: Buffalo Niagara International",552,164,10,143,0,235
+"11",2018,"AA","LAX","Los Angeles, CA","HNL","Honolulu, HI",2001,-10,2357,-32,"0",334,2556,2018,1,"American Airlines Inc.","BWI","Baltimore, MD: Baltimore/Washington International Thurgood Marshall",3741,1777,183,552,0,1229
+"12",2018,"AA","LAX","Los Angeles, CA","HNL","Honolulu, HI",2001,-10,2357,-32,"0",334,2556,2018,1,"American Airlines Inc.","CHS","Charleston, SC: Charleston AFB/International",922,477,17,185,0,243
+"13",2018,"AA","LAX","Los Angeles, CA","HNL","Honolulu, HI",2001,-10,2357,-32,"0",334,2556,2018,1,"American Airlines Inc.","CLE","Cleveland, OH: Cleveland-Hopkins International",2345,1096,67,269,0,913
+"14",2018,"AA","LAX","Los Angeles, CA","HNL","Honolulu, HI",2001,-10,2357,-32,"0",334,2556,2018,1,"American Airlines Inc.","CLT","Charlotte, NC: Charlotte Douglas International",61664,23180,4143,10135,78,24128
+"15",2018,"AA","LAX","Los Angeles, CA","HNL","Honolulu, HI",2001,-10,2357,-32,"0",334,2556,2018,1,"American Airlines Inc.","CMH","Columbus, OH: John Glenn Columbus International",1685,774,1,288,0,623
+"16",2018,"AA","LAX","Los Angeles, CA","HNL","Honolulu, HI",2001,-10,2357,-32,"0",334,2556,2018,1,"American Airlines Inc.","COS","Colorado Springs, CO: City of Colorado Springs Municipal",696,379,37,101,0,179
+"17",2018,"AA","LAX","Los Angeles, CA","HNL","Honolulu, HI",2001,-10,2357,-32,"0",334,2556,2018,1,"American Airlines Inc.","CVG","Cincinnati, OH: Cincinnati/Northern Kentucky International",516,295,1,72,0,149
+"18",2018,"AA","LAX","Los Angeles, CA","HNL","Honolulu, HI",2001,-10,2357,-32,"0",334,2556,2018,1,"American Airlines Inc.","DAY","Dayton, OH: James M Cox/Dayton International",751,279,1,132,0,340
+"19",2018,"AA","LAX","Los Angeles, CA","HNL","Honolulu, HI",2001,-10,2357,-32,"0",334,2556,2018,1,"American Airlines Inc.","DCA","Washington, DC: Ronald Reagan Washington National",16990,4305,712,4739,0,7234
+"20",2018,"AA","LAX","Los Angeles, CA","HNL","Honolulu, HI",2001,-10,2357,-32,"0",334,2556,2018,1,"American Airlines Inc.","DEN","Denver, CO: Denver International",6502,2164,219,1480,94,2545
+"21",2018,"AA","LAX","Los Angeles, CA","HNL","Honolulu, HI",2001,-10,2357,-32,"0",334,2556,2018,1,"American Airlines Inc.","DFW","Dallas/Fort Worth, TX: Dallas/Fort Worth International",98510,37673,6868,14463,130,39376
+"22",2018,"AA","LAX","Los Angeles, CA","HNL","Honolulu, HI",2001,-10,2357,-32,"0",334,2556,2018,1,"American Airlines Inc.","DSM","Des Moines, IA: Des Moines International",1104,576,1,183,0,345
+"23",2018,"AA","LAX","Los Angeles, CA","HNL","Honolulu, HI",2001,-10,2357,-32,"0",334,2556,2018,1,"American Airlines Inc.","DTW","Detroit, MI: Detroit Metro Wayne County",4232,1476,97,1128,0,1531
+"24",2018,"AA","LAX","Los Angeles, CA","HNL","Honolulu, HI",2001,-10,2357,-32,"0",334,2556,2018,1,"American Airlines Inc.","EGE","Eagle, CO: Eagle County Regional",3612,2394,207,388,0,623
+"25",2018,"AA","LAX","Los Angeles, CA","HNL","Honolulu, HI",2001,-10,2357,-32,"0",334,2556,2018,1,"American Airlines Inc.","ELP","El Paso, TX: El Paso International",704,321,1,51,0,332
+"26",2018,"AA","LAX","Los Angeles, CA","HNL","Honolulu, HI",2001,-10,2357,-32,"0",334,2556,2018,1,"American Airlines Inc.","EWR","Newark, NJ: Newark Liberty International",6826,2639,419,2672,0,1096
+"27",2018,"AA","LAX","Los Angeles, CA","HNL","Honolulu, HI",2001,-10,2357,-32,"0",334,2556,2018,1,"American Airlines Inc.","FAT","Fresno, CA: Fresno Yosemite International",498,205,34,167,0,92
+"28",2018,"AA","LAX","Los Angeles, CA","HNL","Honolulu, HI",2001,-10,2357,-32,"0",334,2556,2018,1,"American Airlines Inc.","FLL","Fort Lauderdale, FL: Fort Lauderdale-Hollywood International",6593,2172,606,1997,0,1818
+"29",2018,"AA","LAX","Los Angeles, CA","HNL","Honolulu, HI",2001,-10,2357,-32,"0",334,2556,2018,1,"American Airlines Inc.","GEG","Spokane, WA: Spokane International",898,554,1,153,0,191
+"30",2018,"AA","LAX","Los Angeles, CA","HNL","Honolulu, HI",2001,-10,2357,-32,"0",334,2556,2018,1,"American Airlines Inc.","GSP","Greer, SC: Greenville-Spartanburg International",1147,809,1,72,0,266
+"31",2018,"AA","LAX","Los Angeles, CA","HNL","Honolulu, HI",2001,-10,2357,-32,"0",334,2556,2018,1,"American Airlines Inc.","GUC","Gunnison, CO: Gunnison-Crested Butte Regional",558,370,1,35,0,153
+"32",2018,"AA","LAX","Los Angeles, CA","HNL","Honolulu, HI",2001,-10,2357,-32,"0",334,2556,2018,1,"American Airlines Inc.","HDN","Hayden, CO: Yampa Valley",238,155,1,83,0,0
+"33",2018,"AA","LAX","Los Angeles, CA","HNL","Honolulu, HI",2001,-10,2357,-32,"0",334,2556,2018,1,"American Airlines Inc.","HNL","Honolulu, HI: Daniel K Inouye International",2427,1172,1,132,0,1123
+"34",2018,"AA","LAX","Los Angeles, CA","HNL","Honolulu, HI",2001,-10,2357,-32,"0",334,2556,2018,1,"American Airlines Inc.","IAD","Washington, DC: Washington Dulles International",917,708,1,111,0,98
+"35",2018,"AA","LAX","Los Angeles, CA","HNL","Honolulu, HI",2001,-10,2357,-32,"0",334,2556,2018,1,"American Airlines Inc.","IAH","Houston, TX: George Bush Intercontinental/Houston",5585,1473,240,2035,0,1837
+"36",2018,"AA","LAX","Los Angeles, CA","HNL","Honolulu, HI",2001,-10,2357,-32,"0",334,2556,2018,1,"American Airlines Inc.","ICT","Wichita, KS: Wichita Dwight D Eisenhower National",727,505,1,40,0,182
+"37",2018,"AA","LAX","Los Angeles, CA","HNL","Honolulu, HI",2001,-10,2357,-32,"0",334,2556,2018,1,"American Airlines Inc.","ILM","Wilmington, NC: Wilmington International",325,233,17,70,0,5
+"38",2018,"AA","LAX","Los Angeles, CA","HNL","Honolulu, HI",2001,-10,2357,-32,"0",334,2556,2018,1,"American Airlines Inc.","IND","Indianapolis, IN: Indianapolis International",3560,1343,18,767,0,1432
+"39",2018,"AA","LAX","Los Angeles, CA","HNL","Honolulu, HI",2001,-10,2357,-32,"0",334,2556,2018,1,"American Airlines Inc.","JAC","Jackson, WY: Jackson Hole",734,623,1,29,0,82
+"40",2018,"AA","LAX","Los Angeles, CA","HNL","Honolulu, HI",2001,-10,2357,-32,"0",334,2556,2018,1,"American Airlines Inc.","JAX","Jacksonville, FL: Jacksonville International",2324,883,151,799,0,491
+"41",2018,"AA","LAX","Los Angeles, CA","HNL","Honolulu, HI",2001,-10,2357,-32,"0",334,2556,2018,1,"American Airlines Inc.","JFK","New York, NY: John F. Kennedy International",19095,6825,1405,6872,77,3916
+"42",2018,"AA","LAX","Los Angeles, CA","HNL","Honolulu, HI",2001,-10,2357,-32,"0",334,2556,2018,1,"American Airlines Inc.","KOA","Kona, HI: Ellison Onizuka Kona International at Keahole",846,523,1,51,0,272
+"43",2018,"AA","LAX","Los Angeles, CA","HNL","Honolulu, HI",2001,-10,2357,-32,"0",334,2556,2018,1,"American Airlines Inc.","LAS","Las Vegas, NV: McCarran International",8712,3385,406,2436,26,2459
+"44",2018,"AA","LAX","Los Angeles, CA","HNL","Honolulu, HI",2001,-10,2357,-32,"0",334,2556,2018,1,"American Airlines Inc.","LAX","Los Angeles, CA: Los Angeles International",25934,13320,1494,3755,35,7330
+"45",2018,"AA","LAX","Los Angeles, CA","HNL","Honolulu, HI",2001,-10,2357,-32,"0",334,2556,2018,1,"American Airlines Inc.","LBB","Lubbock, TX: Lubbock Preston Smith International",192,9,1,28,0,155
+"46",2018,"AA","LAX","Los Angeles, CA","HNL","Honolulu, HI",2001,-10,2357,-32,"0",334,2556,2018,1,"American Airlines Inc.","LGA","New York, NY: LaGuardia",21861,6154,3063,5314,2,7328
+"47",2018,"AA","LAX","Los Angeles, CA","HNL","Honolulu, HI",2001,-10,2357,-32,"0",334,2556,2018,1,"American Airlines Inc.","LIH","Lihue, HI: Lihue Airport",2336,1501,1,80,0,755
+"48",2018,"AA","LAX","Los Angeles, CA","HNL","Honolulu, HI",2001,-10,2357,-32,"0",334,2556,2018,1,"American Airlines Inc.","MCI","Kansas City, MO: Kansas City International",2453,957,231,388,0,877
+"49",2018,"AA","LAX","Los Angeles, CA","HNL","Honolulu, HI",2001,-10,2357,-32,"0",334,2556,2018,1,"American Airlines Inc.","MCO","Orlando, FL: Orlando International",16438,6945,893,2721,30,5849
+"50",2018,"AA","LAX","Los Angeles, CA","HNL","Honolulu, HI",2001,-10,2357,-32,"0",334,2556,2018,1,"American Airlines Inc.","MDT","Harrisburg, PA: Harrisburg International",277,212,1,65,0,0
+"51",2018,"AA","LAX","Los Angeles, CA","HNL","Honolulu, HI",2001,-10,2357,-32,"0",334,2556,2018,1,"American Airlines Inc.","MEM","Memphis, TN: Memphis International",1467,468,258,454,0,287
+"52",2018,"AA","LAX","Los Angeles, CA","HNL","Honolulu, HI",2001,-10,2357,-32,"0",334,2556,2018,1,"American Airlines Inc.","MFE","Mission/McAllen/Edinburg, TX: McAllen Miller International",1067,755,1,25,0,287
+"53",2018,"AA","LAX","Los Angeles, CA","HNL","Honolulu, HI",2001,-10,2357,-32,"0",334,2556,2018,1,"American Airlines Inc.","MIA","Miami, FL: Miami International",42786,17501,2451,8185,0,14649
+"54",2018,"AA","LAX","Los Angeles, CA","HNL","Honolulu, HI",2001,-10,2357,-32,"0",334,2556,2018,1,"American Airlines Inc.","MKE","Milwaukee, WI: General Mitchell International",1008,566,1,166,0,276
+"55",2018,"AA","LAX","Los Angeles, CA","HNL","Honolulu, HI",2001,-10,2357,-32,"0",334,2556,2018,1,"American Airlines Inc.","MSP","Minneapolis, MN: Minneapolis-St Paul International",5797,2240,373,1312,0,1872
+"56",2018,"AA","LAX","Los Angeles, CA","HNL","Honolulu, HI",2001,-10,2357,-32,"0",334,2556,2018,1,"American Airlines Inc.","MSY","New Orleans, LA: Louis Armstrong New Orleans International",5109,2732,201,789,0,1387
+"57",2018,"AA","LAX","Los Angeles, CA","HNL","Honolulu, HI",2001,-10,2357,-32,"0",334,2556,2018,1,"American Airlines Inc.","MTJ","Montrose/Delta, CO: Montrose Regional",661,396,30,55,0,180
+"58",2018,"AA","LAX","Los Angeles, CA","HNL","Honolulu, HI",2001,-10,2357,-32,"0",334,2556,2018,1,"American Airlines Inc.","OAK","Oakland, CA: Metropolitan Oakland International",337,154,1,53,0,130
+"59",2018,"AA","LAX","Los Angeles, CA","HNL","Honolulu, HI",2001,-10,2357,-32,"0",334,2556,2018,1,"American Airlines Inc.","OGG","Kahului, HI: Kahului Airport",2756,1182,7,367,0,1200
+"60",2018,"AA","LAX","Los Angeles, CA","HNL","Honolulu, HI",2001,-10,2357,-32,"0",334,2556,2018,1,"American Airlines Inc.","OKC","Oklahoma City, OK: Will Rogers World",1964,843,6,372,0,743
+"61",2018,"AA","LAX","Los Angeles, CA","HNL","Honolulu, HI",2001,-10,2357,-32,"0",334,2556,2018,1,"American Airlines Inc.","OMA","Omaha, NE: Eppley Airfield",1120,384,82,165,0,489
+"62",2018,"AA","LAX","Los Angeles, CA","HNL","Honolulu, HI",2001,-10,2357,-32,"0",334,2556,2018,1,"American Airlines Inc.","ONT","Ontario, CA: Ontario International",1939,842,46,307,0,744
+"63",2018,"AA","LAX","Los Angeles, CA","HNL","Honolulu, HI",2001,-10,2357,-32,"0",334,2556,2018,1,"American Airlines Inc.","ORD","Chicago, IL: Chicago O'Hare International",44973,15678,1447,10707,189,16952
+"64",2018,"AA","LAX","Los Angeles, CA","HNL","Honolulu, HI",2001,-10,2357,-32,"0",334,2556,2018,1,"American Airlines Inc.","ORF","Norfolk, VA: Norfolk International",3968,2739,79,259,0,891
+"65",2018,"AA","LAX","Los Angeles, CA","HNL","Honolulu, HI",2001,-10,2357,-32,"0",334,2556,2018,1,"American Airlines Inc.","PBI","West Palm Beach/Palm Beach, FL: Palm Beach International",5727,1571,399,1774,0,1983
+"66",2018,"AA","LAX","Los Angeles, CA","HNL","Honolulu, HI",2001,-10,2357,-32,"0",334,2556,2018,1,"American Airlines Inc.","PDX","Portland, OR: Portland International",1910,872,97,412,16,513
+"67",2018,"AA","LAX","Los Angeles, CA","HNL","Honolulu, HI",2001,-10,2357,-32,"0",334,2556,2018,1,"American Airlines Inc.","PHL","Philadelphia, PA: Philadelphia International",34367,9616,1605,7680,193,15273
+"68",2018,"AA","LAX","Los Angeles, CA","HNL","Honolulu, HI",2001,-10,2357,-32,"0",334,2556,2018,1,"American Airlines Inc.","PHX","Phoenix, AZ: Phoenix Sky Harbor International",48903,11776,1394,22881,30,12822
+"69",2018,"AA","LAX","Los Angeles, CA","HNL","Honolulu, HI",2001,-10,2357,-32,"0",334,2556,2018,1,"American Airlines Inc.","PIT","Pittsburgh, PA: Pittsburgh International",5455,2307,611,917,0,1620
+"70",2018,"AA","LAX","Los Angeles, CA","HNL","Honolulu, HI",2001,-10,2357,-32,"0",334,2556,2018,1,"American Airlines Inc.","PNS","Pensacola, FL: Pensacola International",1367,392,84,297,0,594
+"71",2018,"AA","LAX","Los Angeles, CA","HNL","Honolulu, HI",2001,-10,2357,-32,"0",334,2556,2018,1,"American Airlines Inc.","PSP","Palm Springs, CA: Palm Springs International",550,277,80,169,0,24
+"72",2018,"AA","LAX","Los Angeles, CA","HNL","Honolulu, HI",2001,-10,2357,-32,"0",334,2556,2018,1,"American Airlines Inc.","PVD","Providence, RI: Theodore Francis Green State",2647,709,471,435,0,1032
+"73",2018,"AA","LAX","Los Angeles, CA","HNL","Honolulu, HI",2001,-10,2357,-32,"0",334,2556,2018,1,"American Airlines Inc.","PWM","Portland, ME: Portland International Jetport",478,300,1,25,0,153
+"74",2018,"AA","LAX","Los Angeles, CA","HNL","Honolulu, HI",2001,-10,2357,-32,"0",334,2556,2018,1,"American Airlines Inc.","RDU","Raleigh/Durham, NC: Raleigh-Durham International",5851,3070,226,1032,0,1523
+"75",2018,"AA","LAX","Los Angeles, CA","HNL","Honolulu, HI",2001,-10,2357,-32,"0",334,2556,2018,1,"American Airlines Inc.","RIC","Richmond, VA: Richmond International",1357,725,31,211,0,390
+"76",2018,"AA","LAX","Los Angeles, CA","HNL","Honolulu, HI",2001,-10,2357,-32,"0",334,2556,2018,1,"American Airlines Inc.","RNO","Reno, NV: Reno/Tahoe International",1513,488,115,127,0,783
+"77",2018,"AA","LAX","Los Angeles, CA","HNL","Honolulu, HI",2001,-10,2357,-32,"0",334,2556,2018,1,"American Airlines Inc.","RSW","Fort Myers, FL: Southwest Florida International",3830,1462,502,1160,58,648
+"78",2018,"AA","LAX","Los Angeles, CA","HNL","Honolulu, HI",2001,-10,2357,-32,"0",334,2556,2018,1,"American Airlines Inc.","SAN","San Diego, CA: San Diego International",4692,2359,293,947,0,1093
+"79",2018,"AA","LAX","Los Angeles, CA","HNL","Honolulu, HI",2001,-10,2357,-32,"0",334,2556,2018,1,"American Airlines Inc.","SAT","San Antonio, TX: San Antonio International",5093,2233,47,674,0,2139
+"80",2018,"AA","LAX","Los Angeles, CA","HNL","Honolulu, HI",2001,-10,2357,-32,"0",334,2556,2018,1,"American Airlines Inc.","SAV","Savannah, GA: Savannah/Hilton Head International",91,57,1,29,0,5
+"81",2018,"AA","LAX","Los Angeles, CA","HNL","Honolulu, HI",2001,-10,2357,-32,"0",334,2556,2018,1,"American Airlines Inc.","SBA","Santa Barbara, CA: Santa Barbara Municipal",40,15,1,25,0,0
+"82",2018,"AA","LAX","Los Angeles, CA","HNL","Honolulu, HI",2001,-10,2357,-32,"0",334,2556,2018,1,"American Airlines Inc.","SEA","Seattle, WA: Seattle/Tacoma International",6304,2612,280,1241,0,2171
+"83",2018,"AA","LAX","Los Angeles, CA","HNL","Honolulu, HI",2001,-10,2357,-32,"0",334,2556,2018,1,"American Airlines Inc.","SFO","San Francisco, CA: San Francisco International",11292,2794,599,5342,8,2549
+"84",2018,"AA","LAX","Los Angeles, CA","HNL","Honolulu, HI",2001,-10,2357,-32,"0",334,2556,2018,1,"American Airlines Inc.","SJC","San Jose, CA: Norman Y. Mineta San Jose International",1968,980,31,266,87,604
+"85",2018,"AA","LAX","Los Angeles, CA","HNL","Honolulu, HI",2001,-10,2357,-32,"0",334,2556,2018,1,"American Airlines Inc.","SJU","San Juan, PR: Luis Munoz Marin International",5026,2520,139,1493,27,847
+"86",2018,"AA","LAX","Los Angeles, CA","HNL","Honolulu, HI",2001,-10,2357,-32,"0",334,2556,2018,1,"American Airlines Inc.","SLC","Salt Lake City, UT: Salt Lake City International",3535,2235,94,607,19,580
+"87",2018,"AA","LAX","Los Angeles, CA","HNL","Honolulu, HI",2001,-10,2357,-32,"0",334,2556,2018,1,"American Airlines Inc.","SMF","Sacramento, CA: Sacramento International",1992,797,340,210,1,644
+"88",2018,"AA","LAX","Los Angeles, CA","HNL","Honolulu, HI",2001,-10,2357,-32,"0",334,2556,2018,1,"American Airlines Inc.","SNA","Santa Ana, CA: John Wayne Airport-Orange County",2125,1199,31,345,0,550
+"89",2018,"AA","LAX","Los Angeles, CA","HNL","Honolulu, HI",2001,-10,2357,-32,"0",334,2556,2018,1,"American Airlines Inc.","STL","St. Louis, MO: St Louis Lambert International",5047,2089,544,597,0,1817
+"90",2018,"AA","LAX","Los Angeles, CA","HNL","Honolulu, HI",2001,-10,2357,-32,"0",334,2556,2018,1,"American Airlines Inc.","STT","Charlotte Amalie, VI: Cyril E King",189,121,1,40,0,28
+"91",2018,"AA","LAX","Los Angeles, CA","HNL","Honolulu, HI",2001,-10,2357,-32,"0",334,2556,2018,1,"American Airlines Inc.","STX","Christiansted, VI: Henry E. Rohlsen",541,470,1,35,0,36
+"92",2018,"AA","LAX","Los Angeles, CA","HNL","Honolulu, HI",2001,-10,2357,-32,"0",334,2556,2018,1,"American Airlines Inc.","SYR","Syracuse, NY: Syracuse Hancock International",592,186,81,25,0,300
+"93",2018,"AA","LAX","Los Angeles, CA","HNL","Honolulu, HI",2001,-10,2357,-32,"0",334,2556,2018,1,"American Airlines Inc.","TPA","Tampa, FL: Tampa International",11522,4770,274,2082,0,4396
+"94",2018,"AA","LAX","Los Angeles, CA","HNL","Honolulu, HI",2001,-10,2357,-32,"0",334,2556,2018,1,"American Airlines Inc.","TUL","Tulsa, OK: Tulsa International",2272,939,1,140,26,1167
+"95",2018,"AA","LAX","Los Angeles, CA","HNL","Honolulu, HI",2001,-10,2357,-32,"0",334,2556,2018,1,"American Airlines Inc.","TUS","Tucson, AZ: Tucson International",1456,740,108,394,0,214
+"96",2018,"AA","LAX","Los Angeles, CA","HNL","Honolulu, HI",2001,-10,2357,-32,"0",334,2556,2018,1,"American Airlines Inc.","VPS","Valparaiso, FL: Eglin AFB Destin Fort Walton Beach",641,343,1,84,0,214
+"97",2018,"AA","LAX","Los Angeles, CA","HNL","Honolulu, HI",2001,-10,2357,-32,"0",334,2556,2018,3,"American Airlines Inc.","ABQ","Albuquerque, NM: Albuquerque International Sunport",1766,975,18,188,0,585
+"98",2018,"AA","LAX","Los Angeles, CA","HNL","Honolulu, HI",2001,-10,2357,-32,"0",334,2556,2018,3,"American Airlines Inc.","ALB","Albany, NY: Albany International",208,74,1,61,0,73
+"99",2018,"AA","LAX","Los Angeles, CA","HNL","Honolulu, HI",2001,-10,2357,-32,"0",334,2556,2018,3,"American Airlines Inc.","ATL","Atlanta, GA: Hartsfield-Jackson Atlanta International",7131,2618,358,1154,0,3001
+"100",2018,"AA","LAX","Los Angeles, CA","HNL","Honolulu, HI",2001,-10,2357,-32,"0",334,2556,2018,3,"American Airlines Inc.","AUS","Austin, TX: Austin - Bergstrom International",5458,2507,115,1145,15,1676

@@ -22,3 +22,4 @@ plot(cars1$speed, cars1$dist, xlim=c(0, 28), ylim=c(0, 230), main="Outliers remo
 abline(lm(dist ~ speed, data=cars1), col="blue", lwd=3, lty=2)
 
 # Detect outliers Univariate approach ---------------------------------------
+
